@@ -1,0 +1,36 @@
+
+---
+
+### **2. `.gitignore` File**
+
+Project root mein `.gitignore` naam se file banao aur yeh content daal do:
+
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+
+# Data & Models
+*.csv
+*.xlsx
+models/*.pkl
+data/*.csv
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
