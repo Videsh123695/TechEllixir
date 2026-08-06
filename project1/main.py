@@ -5,7 +5,7 @@ import joblib
 st.set_page_config(page_title="TECHELLIXIR Attrition Predictor", page_icon="🔮", layout="centered")
 
 st.title("🔮 TECHELLIXIR Employee Attrition Prediction")
-st.subheader("HR teams ke liye real-time prediction")
+st.subheader(" Real-time prediction system for HR team ")
 
 # Load assets
 @st.cache_resource
